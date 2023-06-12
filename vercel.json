@@ -1,9 +1,9 @@
 {
   "rewrites": [
-    { "source": "/", "destination": "https://www.baidu.com/" },
+    { "source": "/", "destination": "https://chat.openai.com/" },
     {
       "source": "/:match*",
-      "destination": "https://api.openai.com/:match*"
+      "destination": "https://chat.openai.com/:match*"
     }
   ],
   "github": {
