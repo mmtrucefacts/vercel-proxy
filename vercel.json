@@ -1,10 +1,9 @@
 {
   "rewrites": [
-    { "source": "/", "destination": "https://www.google.com/" },
+    { "source": "/", "destination": "https://www.poki.com/" },
     {
       "source": "/:match*",
-      "destination": "https://www.google.com/:match*"
-    }
+      "destination": "https://www.poki.com/:match*
   ],
   "github": {
     "silent": true
